@@ -9,6 +9,8 @@ object tito {
     }
 
     method velocidad() = (490 * bebidaActual.rendimiento(dosisActual)) / peso
+
+    method pesoTotal() = peso 
 }
 
 object whisky {
